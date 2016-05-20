@@ -9,11 +9,11 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'jbuilder'
 gem 'sdoc'
-gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'devise'
 gem 'devise_invitable'
 gem 'font-awesome-rails'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'byebug'

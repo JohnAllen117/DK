@@ -6,6 +6,7 @@
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -18,7 +19,7 @@
           <span class="icon-bar"></span>
         </button>
         <%= link_to root_path do %>
-          <%= image_tag("shield.png", border: 0, class: "shield") %>
+          <%= image_tag("shield.png", border: 0, class: "shield visible-lg visible-md") %>
         <% end %>
       </div>
 
