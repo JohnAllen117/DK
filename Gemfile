@@ -14,6 +14,7 @@ gem 'devise'
 gem 'devise_invitable'
 gem 'font-awesome-rails'
 gem 'bootstrap-sass'
+gem 'cancancan', '~> 1.10'
 
 group :development, :test do
   gem 'byebug'
