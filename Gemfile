@@ -15,6 +15,7 @@ gem 'devise_invitable'
 gem 'font-awesome-rails'
 gem 'bootstrap-sass'
 gem 'cancancan', '~> 1.10'
+gem 'activeadmin', github: 'activeadmin'
 
 group :development, :test do
   gem 'byebug'

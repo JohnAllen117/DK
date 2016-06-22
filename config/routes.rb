@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  namespace :admin do
-    root 'admin/dashboard#index'
-  end
+  devise_for :users, ActiveAdmin::Devise.config
+  devise_for :admin_users, ActiveAdmin::Devise.config
 
-  devise_for :users
+  ActiveAdmin.routes(self)
+
   root 'home#index'
 
   resources :users
