@@ -1,0 +1,5 @@
+<%= simple_form_for @blog_post, url: admin_blog_posts_path , :method => :post do |f| %>
+  <%= f.input :title, label: 'Enter a title', error: 'Title is mandatory, please write one.' %>
+  <%= f.input :body, as: :text, label: 'Write your post!' %>
+  <%= f.button :submit %>
+<% end %>
