@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
-  revision: 8f7f58016802cd5a7f663fbc80b90b884252f939
+  revision: a5df0d7231022dc8a3684033f141e7fc0bd640a1
   specs:
     activeadmin (1.0.0)
       arbre (>= 1.1.1)
@@ -86,9 +86,9 @@ GEM
       capybara (>= 2.3.0, < 2.14.0)
       json
     coderay (1.1.1)
-    coffee-rails (4.2.1)
+    coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0, < 5.2.x)
+      railties (>= 4.0.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -171,6 +171,8 @@ GEM
       pry (>= 0.10.4)
     public_suffix (2.0.5)
     rack (2.0.3)
+    rack-attack (5.0.1)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.1.1)
@@ -252,7 +254,7 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
-    xpath (2.0.0)
+    xpath (2.1.0)
       nokogiri (~> 1.3)
 
 PLATFORMS
@@ -274,6 +276,7 @@ DEPENDENCIES
   jquery-rails
   pg
   pry-rails
+  rack-attack
   rails
   sass-rails
   sdoc
