@@ -15,6 +15,8 @@ gem 'devise_invitable'
 gem 'font-awesome-rails'
 gem 'bootstrap-sass'
 gem 'cancancan', '~> 1.10'
+gem 'ransack', github: 'activerecord-hackery/ransack'
+gem 'kaminari'
 
 group :development, :test do
   gem 'byebug'
